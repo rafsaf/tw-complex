@@ -6,8 +6,9 @@ Underneath it is a problem of dividing a set of 2D points **A** according to the
 
 # Examples (before -> after)
 
+### Example 1
+
 ```bash
-# Example 1
 Ally: 10000 points
 Enemy: 15000 points
 min_radius: 1.4
@@ -16,8 +17,9 @@ max_radius: 2
 
 ![example1](https://raw.githubusercontent.com/rafsaf/tw-complex/main/images/Figure_1.png)
 
+### Example 2
+
 ```bash
-# Example 2
 Ally: 2500 points
 Enemy: 6000 points
 min_radius: 4
@@ -26,8 +28,9 @@ max_radius: 10
 
 ![example2](https://raw.githubusercontent.com/rafsaf/tw-complex/main/images/Figure_2.png)
 
+### Example 3
+
 ```bash
-# Example 3
 Ally: 20000 points
 Enemy: 20000 points
 min_radius: 20
@@ -36,8 +39,9 @@ max_radius: 60
 
 ![example3](https://raw.githubusercontent.com/rafsaf/tw-complex/main/images/Figure_3.png)
 
+### Example 4
+
 ```bash
-# Example 4
 Ally: 20000 points
 Enemy: 20000 points
 min_radius: 10
