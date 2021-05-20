@@ -8,12 +8,21 @@ authors = ["rafsaf <rafal.safin12@gmail.com>"]
 python = ">=3.8,<3.10"
 numpy = "^1.20.3"
 scipy = "^1.6.3"
-matplotlib = "^3.4.2"
+scikit-learn = "^0.24.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 black = {version = "^21.5b1", allow-prereleases = true}
+matplotlib = "^3.4.2"
+psutil = "^5.8.0"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(levelname)s:%(name)s - %(message)s"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+
