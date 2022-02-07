@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/rafsaf/tw-complex) 
+![GitHub](https://img.shields.io/github/license/rafsaf/tw-complex)
 ![PyPI](https://img.shields.io/pypi/v/tw-complex)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tw-complex)
 
@@ -22,7 +22,7 @@ pip install tw_complex
 # Basic usage
 
 ```python
-from tw_complex.brute import CDistBrute
+from tw_complex import CDistBrute
 import numpy as np
 
 # The code for Example 1 below
@@ -90,6 +90,7 @@ max_radius: 120
 # Running locally
 
 You will need to have [poetry](https://python-poetry.org/) installed.
+
 ```
 git clone https://github.com/rafsaf/tw-complex.git
 cd tw-complex
@@ -111,7 +112,7 @@ For CDistAndKNN it looks like
 ```python
 # tests/test_cdist.py
 
-from tw_complex.cdist import CDistAndKNN
+from tw_complex import CDistAndKNN
 import tests.utils as utils
 
 

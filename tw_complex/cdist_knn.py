@@ -1,7 +1,7 @@
 from math import floor
 from typing import List, Literal, Tuple
-import numpy as np
 
+import numpy as np
 from scipy.spatial.distance import cdist
 from sklearn.neighbors import KNeighborsClassifier
 
@@ -127,8 +127,8 @@ class CDistAndKNN:
 
         # We use sq of distance
         C = cdist(ally_villages, enemy_villages, "sqeuclidean")
-        sq_min_radius: float = min_radius ** 2
-        sq_max_radius: float = max_radius ** 2
+        sq_min_radius: float = min_radius**2
+        sq_max_radius: float = max_radius**2
 
         for point, i in zip(ally_villages, C):
             x: np.float64 = np.amin(i)

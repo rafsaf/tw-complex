@@ -3,7 +3,7 @@ import logging
 from typing import Any, Literal
 import matplotlib.pyplot as plt
 import numpy as np
-from tw_complex.brute import CDistBrute
+from tw_complex.cdist_brute import CDistBrute
 
 
 def run_all_tests(Algorithm: Any, name: str, draw=True, _precision: float = 1):
@@ -113,6 +113,7 @@ def run_test(
     draw=True,
     _precision: float = 1,
 ):
+
     logger = logging.getLogger(name)
 
     precise_front, precise_back = CDistBrute(
