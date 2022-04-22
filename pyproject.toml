@@ -22,6 +22,9 @@ pytest = "^7.0.0"
 black = "^22.1.0"
 matplotlib = "^3.5.1"
 psutil = "^5.9.0"
+PyQt5 = "^5.15.6"
+flake8 = "^4.0.1"
+autoflake = "^1.4"
 
 
 [build-system]
